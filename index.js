@@ -43,7 +43,11 @@ function total() {
 }
 
 function removeFromCart(item) {
-
+  var itemIsInCart = false;
+  for(var i = 0; i < cart.length; i++) {
+    
+  }
+}
 
 function placeOrder(cardNumber) {
   var totalValue = total();
